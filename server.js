@@ -1,6 +1,10 @@
 import express from "express";
 import { PORT } from "./config";
 
+/*
+Develope an API to perform create , update methods
+*/ 
+
 const port = PORT || 3000;
 
 const app = express();
